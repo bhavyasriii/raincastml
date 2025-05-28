@@ -9,8 +9,10 @@ from dotenv import load_dotenv
 # Set page config
 st.set_page_config(page_title="🌧️ RainCastML", page_icon="🌦️", layout="centered")
 
-# Load environment variables
-WEATHER_API_KEY="7b7b7eaebd613ad2c8be2e47d7124217"
+
+load_dotenv()
+API_KEY = os.getenv("OPENWEATHERMAP_API_KEY")
+
 
 
 
