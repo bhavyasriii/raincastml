@@ -11,7 +11,7 @@ st.set_page_config(page_title="🌧️ RainCastML", page_icon="🌦️", layout=
 
 
 load_dotenv()
-API_KEY = os.getenv("OPENWEATHERMAP_API_KEY")
+WEATHER_API_KEY = os.getenv("OPENWEATHERMAP_API_KEY")
 
 
 
